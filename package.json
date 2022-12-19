@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithNoTests --watch",
+    "test:stadeg": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
